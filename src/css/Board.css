@@ -1,0 +1,54 @@
+.board{
+  background: #654;
+  display: inline-flex;
+  padding:1em;
+
+}
+.row{
+  display:black;
+}
+.tile{
+  width:2em;
+  height: 2em;
+  display: grid;
+}
+.black{
+  background: #344;
+}
+.white{
+  background: #fff;
+}
+.white:hover{
+  background: #ff8;
+}
+.black:hover{
+  background: #880;
+}
+.piece{
+  position:inherit;
+  background-repeat: no-repeat;
+}
+.whitepiece{
+  background-position-y:3px;
+}
+.blackpiece{
+  background-position-y:-33px;
+}
+.Q{
+  background-position-x: -33px;
+}
+.K{
+  background-position-x: 2px;
+}
+.R{
+  background-position-x: -140px;
+}
+.B{
+  background-position-x: -68px;
+}
+.N{
+  background-position-x: -105px;
+}
+.P{
+  background-position-x:-175px;
+}
