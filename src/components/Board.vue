@@ -109,5 +109,5 @@ export default {
 }
 </script>
 
-<style lang="css" scoped src = "/css/Board.css">
+<style lang="css" scoped src = "../css/Board.css">
 </style>
